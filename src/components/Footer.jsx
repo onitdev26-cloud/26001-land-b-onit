@@ -10,11 +10,13 @@ function Footer() {
 
             <div>
                 <p>사업자명 : onit Dev.</p>
-                <p>이메일 : contact@onit.dev</p>
-                <p>연락처 : 010-1234-5678</p>
+                <p>Web site : https://onitdev.netlify.app</p>
+                <p>개발자 : 윤 정 식</p>
+                <p>이메일 : onitdev26@gmail.com</p>
+                <p>연락처 : 010-4134-9643</p>
             </div>
 
-            <p>© 2026 onit Dev. All rights reserved.</p>
+            <p>© 2026 onitDev26. All rights reserved.</p>
         </footer>
     );
 }
