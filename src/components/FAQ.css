@@ -1,0 +1,19 @@
+#faq {
+  padding: 70px 20px;
+  background: #f7f7f7;
+}
+
+#faq article {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#faq article h3 {
+  margin: 0 0 10px;
+  font-size: 17px;
+}
+
+#faq article p {
+  margin: 0;
+  color: #666;
+}

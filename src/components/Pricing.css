@@ -1,0 +1,24 @@
+#pricing {
+  padding: 70px 20px;
+}
+
+#pricing article {
+  margin-top: 30px;
+  padding: 30px 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#pricing article strong {
+  display: block;
+  margin: 10px 0 20px;
+  font-size: 24px;
+}
+
+#pricing ul {
+  padding-left: 20px;
+}
+
+#pricing li {
+  margin-bottom: 8px;
+}

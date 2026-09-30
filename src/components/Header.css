@@ -1,0 +1,49 @@
+header {
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+header strong {
+  font-size: 24px;
+}
+
+header span {
+    font-size: 13px;
+    color: #666666;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+header nav a {
+    font-size: 14px;
+    color: #333333;
+}
+
+header nav a:hover {
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    header nav {
+        margin-top: 0;
+    }
+}
