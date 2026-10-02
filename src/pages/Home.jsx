@@ -8,7 +8,12 @@ import FAQ from "../components/FAQ";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 
+import { useState } from "react";
+import InstallPWA from "../components/InstallPWA";
+
 function Home() {
+    const [showExitPopup, setShowExitPopup] = useState(false);
+
     return (
         <>
             <Header />
@@ -19,7 +24,14 @@ function Home() {
             <Pricing />
             <FAQ />
             <CTA />
-            <Footer />
+            <Footer 
+                onExit={() => setShowExitPopup(true)}
+            />
+
+            <InstallPWA
+                showExitPopup={showExitPopup}
+                setShowExitPopup={setShowExitPopup}
+            />
         </>
     );
 }

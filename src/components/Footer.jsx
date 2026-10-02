@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-function Footer() {
+function Footer({onExit}) {
     return (
         <footer>
             <div>
@@ -17,6 +17,10 @@ function Footer() {
             </div>
 
             <p>© 2026 onitDev26. All rights reserved.</p>
+
+            <button onClick={onExit}>
+                사이트 나가기
+            </button>
         </footer>
     );
 }

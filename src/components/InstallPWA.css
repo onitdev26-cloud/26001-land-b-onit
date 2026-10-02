@@ -1,0 +1,121 @@
+/* =========================
+   메인페이지 하단
+   홈 화면에 추가 버튼
+========================= */
+
+.pwa-install-bottom {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  z-index: 1000;
+
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #111;
+  color: #fff;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.pwa-install-bottom:hover {
+  opacity: 0.85;
+}
+
+
+/* =========================
+   종료 팝업 배경
+========================= */
+
+.pwa-exit-overlay {
+  position: fixed;
+  inset: 0;
+
+  z-index: 2000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* =========================
+   종료 팝업
+========================= */
+
+.pwa-exit-popup {
+  position: relative;
+
+  width: 90%;
+  max-width: 400px;
+
+  padding: 35px 25px;
+
+  box-sizing: border-box;
+
+  background: #fff;
+  border-radius: 16px;
+
+  text-align: center;
+}
+
+.pwa-exit-popup h3 {
+  margin-bottom: 15px;
+}
+
+.pwa-exit-popup p {
+  margin-bottom: 25px;
+
+  line-height: 1.6;
+}
+
+
+/* 닫기 X */
+
+.pwa-exit-close {
+  position: absolute;
+
+  top: 10px;
+  right: 15px;
+
+  border: none;
+  background: none;
+
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+/* YES / NO */
+
+.pwa-exit-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.pwa-exit-buttons button {
+  flex: 1;
+
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.pwa-yes {
+  background: #111;
+  color: #fff;
+}
+
+.pwa-no {
+  background: #eee;
+  color: #111;
+}
